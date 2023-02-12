@@ -43,5 +43,5 @@ for i in os.listdir("images"):
     fig, ax = plt.subplots()
     plt.scatter(x_points, y_points, label = "label_name" )
     ax.imshow(img)
-    plt.savefig("plots-"+i+".jpg")
+    plt.savefig("plots-"+i)
     print(rgb_pixel_value)
